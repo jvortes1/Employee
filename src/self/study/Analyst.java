@@ -7,7 +7,7 @@ public class Analyst extends Employee {
 
     /**Constructor**/
 
-    Analyst (String name, int IDNum, double salary) {
+    Analyst (String name, long IDNum, double salary) {
         super(name, IDNum, salary);
     }
 

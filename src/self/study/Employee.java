@@ -4,12 +4,12 @@ public class Employee {
     /**attributes**/
 
     private String name;
-    private int IDNum;
+    private long IDNum;
     private double salary;
 
     /**constructor**/
 
-    Employee (String name, int IDNum, double salary ) {
+    Employee (String name, long IDNum, double salary ) {
 
         this.name = name;
         this.IDNum = IDNum;
@@ -19,7 +19,7 @@ public class Employee {
     /**Access Modifiers**/
 
     public String getName () { return name; }
-    public int getIDNum () { return IDNum; }
+    public long getIDNum () { return IDNum; }
     public double getSalary () { return salary; }
 
     /**behavior**/
@@ -27,7 +27,7 @@ public class Employee {
     public void salaryIncrease (int tenure) {
         if (tenure >= 2) {
             // 10 percent salary increase
-            this.salary = (this.salary * 0.10) + this.salary;
+            this.salary = (this.salary * 0.08) + this.salary;
         }
     }
 

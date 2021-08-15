@@ -10,7 +10,7 @@ public class SalesRep extends Employee {
 
     /**Constructor**/
 
-    public SalesRep (String name, int IDNum, double salary, double commissionRate) {
+    public SalesRep (String name, long IDNum, double salary, double commissionRate) {
         super(name, IDNum, salary);
         this.commissionRate = commissionRate;
     }
